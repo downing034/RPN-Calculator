@@ -1,0 +1,14 @@
+# Setting some looser restrictions since this is a small application
+Metrics/LineLength:
+  Max: 134
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/calculator_spec.rb
+
+Metrics/MethodLength:
+  Max: 15
+
+Style/RescueModifier:
+  Exclude:
+    - lib/string.rb
